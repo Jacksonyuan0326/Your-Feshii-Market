@@ -72,6 +72,7 @@ h1{
     height: 40px;
     border: 2px solid  #00a4ff;
 }
+
 .search input{
     float: left;
     padding-left: 20px;
@@ -80,6 +81,7 @@ h1{
     height: 36px;
     border: 0;
 }
+
 .search button{
     float:left;
     width: 83px;
@@ -88,22 +90,27 @@ h1{
     background-repeat: no-repeat;
     border: 0;
 }
+
 .search input::placeholder{
     font-size: 14px;
     color: #bfbfbf;
 }
+
 .user{
     float:right;
     margin-right: 30px;
     height: 50px;
     line-height: 50px;
 }
+
 .user img{
     vertical-align: middle;
 }
+
 span.register{
     padding-left: 20px;
 }
+
 .banner{
     height: 420px;
     /*background-color: yellowgreen;*/
@@ -111,9 +118,11 @@ span.register{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .banner .wrapper{
     height: 420px;
 }
+
 .banner .left{
     float: left;
     padding: 0 20px;
@@ -121,22 +130,78 @@ span.register{
     height: 420px;
     background-color: rgba(0,0,0,0.3);
     /*control text gre*/
-    line-height: 42px;
+    line-height: 40px;
 }
+
 .banner .left span{
     float: right;
 }
+
+.banner .left li{
+    border-bottom: 1px solid #52545e;
+}
+
 .banner .left a{
     font-size: 14px;
     color: #357746;
 }
+
 .banner .left a:hover{
-    color: #223122;
+    color: #00b4ff;
 }
+
 .banner .right{
     float: right;
     width: 228px;
     height: 300px;
-    background-color: #bfbfbf;
+    background-color: #d9d9d9;
     margin-top: 50px;
+}
+
+.banner .right h2{
+    height: 30px;
+    background-color: forestgreen;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.banner .right .content{
+    padding: 0 18px;
+}
+
+.banner .right .content dl{
+
+    padding: 12px 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.banner .right .content dt{
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    color:#4e4e4e;
+
+    text-align: center;
+
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.banner .right .content dd{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.banner .right .viewcart{
+    display: block;
+    margin: 4px auto 0;
+
+    width: 200px;
+    height: 20px;
+    border: 1px solid #00b4ff;
+
+    text-decoration: none;
+    text-align: center;
+    color: #357746;
 }
