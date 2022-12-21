@@ -1,2 +1,2 @@
 # Your-Feshii-Market
-This is a HTML and CSSproject 
+This is an HTML and CSS project 
