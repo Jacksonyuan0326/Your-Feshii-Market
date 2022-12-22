@@ -29,6 +29,7 @@ body{
     margin: 0 auto;
 }
 .header{
+
     height: 50px;
     background-color: yellowgreen;
     margin:30px auto;
@@ -38,6 +39,7 @@ h1{
 }
 /*Navigation*/
 .nav{
+
     float:left;
     margin-left: 70px;
 
@@ -266,6 +268,7 @@ span.register{
     color: #52545e;
 }
 .weeklydeal .dealcontent li{
+    position: relative;
     margin: 30px;
     float: left;
     width: 250px;
@@ -283,6 +286,11 @@ span.register{
     text-align: center;
     font-size: 12px;
     color:#494949;
+}
+.weeklydeal .dealcontent li .hot{
+    position: absolute;
+    right: -4px;
+    top: 4px;
 }
 
 /*footer*/
